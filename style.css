@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+p, h1, h2, h3, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    height: 100px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+header nav ul{
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 450px;
+    background-color: #E5E5E5;
+}
+
+.contenedorenvio {
+    width: 490px;
+    height: 350px;
+    position: relative;
+    color: #FC200C;
+    box-sizing: content-box;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.contenedorenvio h2{
+    position: absolute;
+    margin-left: 5%;
+}
+
+.contenedorenvio h2 span{
+    color: white;
+}
+
+.contenedorpodio {
+    display: flex;
+    flex-direction: column;
+    color: #FC200C;
+    background-color: white;
+    height: 350px;
+    width: 490px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.contenedorpodio h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.elementospodio{
+display: flex;
+justify-content: space-around;
+}
+
+
+.contenedorpodio h3{
+    color: black;
+}
+
+.contenedorpodio li{
+    color: black;
+    margin: 10px;
+}
+
+
+footer {
+    height: 150px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
