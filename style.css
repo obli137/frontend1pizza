@@ -45,7 +45,7 @@ main{
     position: relative;
     color: #FC200C;
     box-sizing: content-box;
-    margin: 5px;
+    margin: 3px;
     border-radius: 5px;
 }
 
@@ -65,7 +65,7 @@ main{
     background-color: white;
     height: 350px;
     width: 490px;
-    margin: 5px;
+    margin: 3px;
     border-radius: 5px;
 }
 
@@ -87,6 +87,13 @@ justify-content: space-around;
 .contenedorpodio li{
     color: black;
     margin: 10px;
+}
+
+.noestirado{
+    width: 92px;
+    height: 120px;
+margin-top: 10%;
+
 }
 
 
